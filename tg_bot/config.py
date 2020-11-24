@@ -7,7 +7,7 @@ class Config(object):
     OWNER_USERNAME = "ViruZs"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'postgres://testdb:12345678@database-1.cynuhes4z9va.eu-west-2.rds.amazonaws.com:5432/dbname'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgres://testdb:12345678@cynuhes4z9va.eu-west-2.rds.amazonaws.com:5432/dbname'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['translation', 'rss']
